@@ -1,0 +1,120 @@
+=================================
+num_units = 200
+num_layers = 1
+learning_rate = 0.005
+batch_size = 30
+num_epochs = 15
+training_set = 234
+testing_set = 30
+[5 5 5 7 7 7 8 3 3 3 3 6 6 6 6 1 1 1 1 2 2 2 4 0 0 0 9 9 9 9]
+=================================
+
+Step 116: loss = 0.09(1.903 sec)
+Done training for 15 epochs, 117 steps.
+ Num examples: 30  Num correct: 27  Precision @ 1: 0.900000 
+
+Process finished with exit code 0
+
+
+288：帧数太多，有些纹理的开始和结束部分都属于噪声部分，干扰很大，5和9 1和7 分错
+
+
+==========================
+num_units = 100
+num_layers = 1
+learning_rate = 0.001
+batch_size = 30
+num_epochs = 20
+training_set = 234
+testing_set = 30
+[5 5 5 7 7 7 8 3 3 3 3 6 6 6 6 1 1 1 1 2 2 2 4 0 0 0 9 9 9 9]
+
+[5, 5, 5, 7, 7, 7, 8, 3, 3, 3, 3, 6, 6, 6, 6, 1, 1, 1, 1, 2, 2, 2, 4, 0, 0, 0, 9, 9, 9, 9]
+==========================
+Step 0: loss = 2.28(3.700 sec)
+Step 20: loss = 0.81(1.884 sec)
+Step 30: loss = 0.57(1.721 sec)
+Step 40: loss = 0.46(1.801 sec)
+Step 50: loss = 0.47(1.957 sec)
+Step 60: loss = 0.32(1.811 sec)
+Step 70: loss = 0.32(1.751 sec)
+Step 80: loss = 0.29(1.770 sec)
+Step 90: loss = 0.19(1.790 sec)
+Step 100: loss = 0.21(1.844 sec)
+Step 110: loss = 0.17(1.832 sec)
+Step 120: loss = 0.15(1.786 sec)
+Step 130: loss = 0.14(1.800 sec)
+Step 140: loss = 0.10(1.858 sec)
+Step 150: loss = 0.11(1.767 sec)
+Done training for 20 epochs, 156 steps.
+  Num examples: 30  Num correct: 30  Precision @ 1: 1.000000 
+
+
+------------------------------------------------------------------------------------
+Step 0: loss = 2.30(3.765 sec)
+Step 10: loss = 1.10(1.724 sec) 
+Step 20: loss = 0.80(1.850 sec)
+Step 30: loss = 0.38(1.786 sec)
+Step 40: loss = 0.42(1.868 sec)
+Step 50: loss = 0.44(1.733 sec)
+Step 60: loss = 0.34(1.769 sec)
+Step 70: loss = 0.25(1.763 sec)
+Step 80: loss = 0.37(1.778 sec)
+Step 90: loss = 0.28(1.772 sec)
+Step 100: loss = 0.19(1.789 sec)
+Step 110: loss = 0.18(1.975 sec)
+Step 120: loss = 0.19(1.825 sec)
+Step 130: loss = 0.12(1.824 sec)
+Step 140: loss = 0.12(1.824 sec)
+Step 150: loss = 0.11(1.745 sec)
+Done training for 20 epochs, 156 steps.
+  Num examples: 30  Num correct: 28  Precision @ 1: 0.933333 
+[5, 9, 5, 1, 7, 7, 8, 3, 3, 3, 3, 6, 6, 6, 6, 1, 1, 1, 1, 2, 2, 2, 4, 0, 0, 0, 9, 9, 9, 9]
+
+
+--------------------------------------------------------------------------------
+Step 0: loss = 2.29(3.611 sec)
+Step 10: loss = 0.73(1.907 sec)
+Step 20: loss = 0.65(1.826 sec)
+Step 30: loss = 0.44(1.838 sec)
+Step 40: loss = 0.41(1.798 sec)
+Step 50: loss = 0.53(1.786 sec)
+Step 60: loss = 0.61(1.806 sec)
+Step 70: loss = 0.43(1.816 sec)
+Step 80: loss = 0.32(1.842 sec)
+Step 90: loss = 0.44(1.789 sec)
+Step 100: loss = 0.27(1.897 sec)
+Step 110: loss = 0.16(1.781 sec)
+Step 120: loss = 0.12(1.822 sec)
+Step 130: loss = 0.16(1.876 sec)
+Step 140: loss = 0.16(1.800 sec)
+Step 150: loss = 0.14(1.906 sec)
+  Num examples: 30  Num correct: 27  Precision @ 1: 0.900000 
+('groud truth:', [5, 5, 5, 7, 7, 7, 8, 3, 3, 3, 3, 6, 6, 6, 6, 1, 1, 1, 1, 2, 2, 2, 4, 0, 0, 0, 9, 9, 9, 9])
+('result:', [5, 5, 5, 7, 7, 5, 8, 3, 3, 3, 3, 6, 5, 6, 6, 1, 1, 1, 1, 2, 2, 9, 4, 0, 0, 0, 9, 9, 9, 9])
+
+--------------------------------------------------
+Step 0: loss = 2.25(4.460 sec)
+Step 10: loss = 1.48(1.980 sec)
+Step 20: loss = 0.90(1.961 sec)
+Step 30: loss = 0.59(2.185 sec)
+Step 40: loss = 0.52(2.136 sec)
+Step 50: loss = 0.47(2.126 sec)
+Step 60: loss = 0.41(2.019 sec)
+Step 70: loss = 0.63(2.107 sec)
+Step 80: loss = 0.29(2.097 sec)
+Step 90: loss = 0.26(2.187 sec)
+Step 100: loss = 0.25(2.202 sec)
+Step 110: loss = 0.21(2.078 sec)
+Step 120: loss = 0.25(2.193 sec)
+Step 130: loss = 0.12(2.160 sec)
+Step 140: loss = 0.20(2.176 sec)
+Step 150: loss = 0.12(2.151 sec)
+Done training for 20 epochs, 156 steps.
+  Num examples: 30  Num correct: 28  Precision @ 1: 0.933333 
+('groud truth:', [5, 5, 5, 7, 7, 7, 8, 3, 3, 3, 3, 6, 6, 6, 6, 1, 1, 1, 1, 2, 2, 2, 4, 0, 0, 0, 9, 9, 9, 9])
+('result:', [5, 5, 5, 7, 7, 7, 8, 0, 3, 3, 6, 6, 6, 6, 6, 1, 1, 1, 1, 2, 2, 2, 4, 0, 0, 0, 9, 9, 9, 9])
+
+
+
+
