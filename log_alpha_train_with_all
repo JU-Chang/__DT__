@@ -1,0 +1,19 @@
+==========================================
+epochs:10
+training set: 3 classes, 20 samples each
+test with training set.
+
+==========================================
+
+Step 1: loss = 0.93(4.564 sec)
+Step 2: loss = 0.61(4.592 sec)
+Step 3: loss = 0.35(4.574 sec)
+Step 4: loss = 0.30(4.464 sec)
+Step 5: loss = 0.30(4.527 sec)
+Step 6: loss = 0.26(4.648 sec)
+Step 7: loss = 0.19(4.661 sec)
+Step 8: loss = 0.21(4.561 sec)
+Step 9: loss = 0.20(4.334 sec)
+Done training for 10 epochs, 10 steps.
+Num examples: 60  Num correct: 57  Precision @ 1: 0.950000 
+
